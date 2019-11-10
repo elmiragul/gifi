@@ -1,0 +1,98 @@
+.gifs__grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  overflow:hidden;
+  
+  
+}
+.gifs__wrapper{
+  width:1000px;
+  margin:0 auto;
+  padding: 10px;
+
+}
+@media screen and (max-width: 700px){
+  .gifs__grid-container{
+    display: grid;
+    grid-template-columns: auto;
+} 
+}
+.gifs__grid-item{
+  background-color:white;
+  padding: 5px;
+  margin:5px;
+  height:200px;
+}
+.gifs__input{
+  width:80%;
+  display:inline-block;
+}
+.gifs__button{
+  width:20%;
+  display:inline-block;
+
+}
+.gifs__input_line{
+  display:block;
+  width:100%;
+  background-color: red;
+  height: 50px;
+  border: none;
+  color: white;
+    border: none;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.gifs__input_search{
+  display:block;
+  width:100%;
+  border: 2px solid blueviolet;
+  height: 30px;
+  font-weight: 600;
+
+}
+
+.gif__img{
+  width:100%;
+  height:100%;
+}
+
+.calculator{
+  width:300px;
+  margin-top:20px;
+  margin-bottom:30px;
+  height:100px;
+}
+
+
+.gifs__header_menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: red;
+}
+
+.gifs__header_menu--hide{
+  visibility: hidden;
+      opacity: 0;
+    
+      transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+.gifs__header_menu_item{
+  margin: 5px 0;
+}
+
+.gifs__header_menu_link{
+  padding: 5px;
+  display: block;
+  background: blue;
+}
+
+.gifs__toggler{
+  float: right;
+  z-index: 3;
+}
+
